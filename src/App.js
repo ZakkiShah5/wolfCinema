@@ -1,8 +1,14 @@
 import React from 'react'
+import { Footer, Header } from './components'
+import AllRoutes from './routes/AllRoutes'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <Header/>
+      <AllRoutes/>
+      <Footer/>
+    </div>
   )
 }
 
