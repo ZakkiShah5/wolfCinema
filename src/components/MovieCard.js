@@ -2,8 +2,8 @@
 import { Link } from "react-router-dom";
 import UseFetchMovie from "../Hooks/UseFetchMovie";
 
-const MovieCard = ({path}) => {
-  const {data} = UseFetchMovie(path);
+const MovieCard = ({path, queryTerm}) => {
+  const {data} = UseFetchMovie(path,queryTerm);
   
   const genTemplate = () => {
     return data && data.map((movie) => {

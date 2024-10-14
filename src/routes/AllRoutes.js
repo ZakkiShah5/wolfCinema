@@ -10,7 +10,7 @@ const AllRoutes = () => {
             <Route path="/movies/popular" element={<MovieList path="movie/popular?" />}></Route>
             <Route path="/movies/top" element={<MovieList path="movie/top_rated?" />}></Route>
             <Route path="/movies/upcoming" element={<MovieList path="movie/upcoming?" />}></Route>
-            <Route path="/search" element={<SearchMovie/>}></Route>
+            <Route path="/search" element={<SearchMovie path="search/movie?" />}></Route>
             <Route path="/movie/:id" element={<MovieDetails/>}></Route>
             <Route path="*" element={<PageNotFound/>}></Route>
         </Routes>
