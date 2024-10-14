@@ -5,9 +5,9 @@ import AllRoutes from './routes/AllRoutes'
 const App = () => {
   return (
     <div>
-      <Header/>
-      <AllRoutes/>
-      <Footer/>
+      <Header />
+      <AllRoutes />
+      <Footer />
     </div>
   )
 }
