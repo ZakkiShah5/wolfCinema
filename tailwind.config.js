@@ -15,7 +15,7 @@ module.exports = {
         "primary": "#0daeab",
       },
       minHeight: {
-        'screen-90': '90vh',
+        'screen-90': '80vh',
       },
     },
   },

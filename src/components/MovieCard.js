@@ -18,7 +18,7 @@ const MovieCard = ({path, queryTerm}) => {
           <div>
             <div className="px-6 py-4">
               <h2 className="font-bold text-xl mb-2 text-gray-900 dark:text-white">{movie.title}</h2>
-              <p className="text-gray-700 dark:text-gray-300 text-base">{movie.overview}</p>
+              <p className="text-gray-700 dark:text-gray-300 text-base">{movie.overview.split(' ').slice(0, 15).join(' ') + '...'}</p>
             </div>
             <div className="px-6 py-4 mt-auto">
               <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded dark:bg-blue-400 dark:hover:bg-blue-500">

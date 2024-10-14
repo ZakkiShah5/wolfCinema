@@ -8,9 +8,9 @@ const Footer = () => {
           <p>© 2024 WolfCinema</p>
         </div>
         <div className="flex gap-4 text-lg">
-          <a href="https://github.com/ZakkiShah5/"><FaGithub /></a>
-          <a href="https://www.instagram.com/"><FaInstagram /></a>
-          <a href="https://www.linkedin.com/"><FaLinkedin /></a>
+          <a href="https://github.com/ZakkiShah5/" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+          <a href="https://www.instagram.com/zakki_shahh" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+          <a href="https://www.linkedin.com/in/zakee-ul-hassan-813b201ab" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
         </div>
       </div>
     </footer>
